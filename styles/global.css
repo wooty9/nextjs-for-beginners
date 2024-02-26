@@ -1,5 +1,4 @@
 body {
-    padding-top: 150px;
     font-family: system-ui,
         -apple-system,
         BlinkMacSystemFont,
@@ -14,6 +13,10 @@ body {
     background-color: black;
     color: white;
     font-size: 18px;
+}
+
+body.top {
+    padding-top: 120px;
 }
 
 a {

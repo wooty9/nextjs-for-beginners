@@ -1,5 +1,5 @@
-import styles from "../styles/movie-videos.module.css";
-import {API_URL} from "../util/consts";
+import styles from "@styles/movie-videos.module.css";
+import {API_URL} from "@utils/consts";
 
 async function getVideos(id: string) {
     console.log(`Fetching movies: ${Date.now()}`);
